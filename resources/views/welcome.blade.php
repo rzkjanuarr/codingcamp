@@ -11,7 +11,18 @@
                                 LEARN FROM EXPERT
                             </p>
                             <h1 class="header">
-                                Start Your <span class="text-purple">Developer <br> Journey</span> Today
+                                <span class="text-purple">
+                                    Ngoding
+                                </span>
+                                Aja
+                                <span class="text-purple">
+                                    Dulu
+                                </span>
+                                <br>
+                                Nanti Juga
+                                <span class="text-purple">
+                                    Jago
+                                </span>
                             </h1>
                             <p class="support">
                                 Our bootcamp is helping junior developers who <br> are really passionate in the

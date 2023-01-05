@@ -7,8 +7,8 @@
                 <div class="col-lg-11 col-12">
                     <div class="row">
                         <div class="col-lg-6 col-12 copywriting">
-                            <p class="story">
-                                LEARN FROM EXPERT
+                            <p class="story text-red">
+                                ZERO TO HERO!
                             </p>
                             <h1 class="header">
                                 <span class="text-purple">
@@ -25,8 +25,7 @@
                                 </span>
                             </h1>
                             <p class="support">
-                                Our bootcamp is helping junior developers who <br> are really passionate in the
-                                programming.
+                                ✨ ” Jika Kamu tidak sanggup menahan lelahnya belajar maka kamu harus sanggup menahan perihnya kebodohan ”  ✨ <br> Imam Syafi’i
                             </p>
                             <p class="cta">
                                 <a href="#" class="btn btn-master btn-primary">
@@ -276,7 +275,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{ route('checkout') }}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{ route('checkout.create', 'gila-belajar') }}" class="btn btn-master btn-primary w-100 mt-3">
                                         Take This Plan
                                     </a>
                                 </p>
@@ -322,7 +321,7 @@
                                     <div class="clear"></div>
                                 </div>
                                 <p>
-                                    <a href="{{ route('checkout') }}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{ route('checkout.create', 'baru-mulai') }}" class="btn btn-master btn-secondary w-100 mt-3">
                                         Start With This Plan
                                     </a>
                                 </p>
@@ -347,7 +346,7 @@
                         SUCCESS STUDENTS
                     </p>
                     <h2 class="primary-header">
-                        We Really Love Laracamp
+                        We Really Love Codingcamp
                     </h2>
                 </div>
             </div>
@@ -418,7 +417,7 @@
                     <div class="row copyright">
                         <div class="col-lg-12 col-12">
                             <p>
-                                All Rights Reserved. Copyright Laracamp BWA Indonesia.
+                                All Rights Reserved. Copyright Codingcamp Indonesia.
                             </p>
                         </div>
                     </div>

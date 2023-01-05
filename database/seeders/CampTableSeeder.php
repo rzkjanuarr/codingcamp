@@ -8,6 +8,11 @@ use App\Models\Camp;
 
 class CampTableSeeder extends Seeder
 {
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
     public function run()
     {
         $camps = [

@@ -23,6 +23,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('checkout/{camp}', [CheckoutController::class, 'store'])->name('checkout.store');
 
     Route::get('dashboard', [HomeController::class, 'dashboard'])->name('dashboard');
+    Route::get('/user/dashboard', [HomeController::class, 'dashboard'])->name('user.dashboard');
 });
 
 // socialite routes

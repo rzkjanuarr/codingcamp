@@ -16,6 +16,9 @@ Route::view('/login', 'login')->name('login');
 
 // Route::view('/checkout/{camp:slug}', 'checkout')->name('checkout');
 
+// midtrans routes
+Route::get('payment/success', [CheckoutController::class, 'midtransCallback']);
+Route::post('payment/success', [CheckoutController::class, 'midtransCallback']);
 
 
 

@@ -14,10 +14,9 @@ class Checkout extends Model
     protected $fillable = [
         'user_id',
         'camp_id',
-        'card_number',
-        'expired',
-        'cvc',
-        'is_paid'
+        'payment_status',
+        'midtrans_url',
+        'midtrans_booking_code'
     ];
 
     public function SetExpiredAttribute($value)
@@ -25,9 +24,9 @@ class Checkout extends Model
         $this -> attributes['expired'] = date('Y-m-t', strtotime($value));
     }
 
-    protected $attributes = [
-        'is_paid' => false,
-    ];
+    // protected $attributes = [
+    //     'is_paid' => false,
+    // ];
 
     public function Camp(): BelongsTo
     {

@@ -33,4 +33,13 @@ class Checkout extends Model
     {
         return $this->belongsTo(Camp::class);
     }
+
+    /**
+     * Get the User that owns the Checkout
+     *
+     * @return \Illuminate\Database\El    */
+    public function User(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
 }
